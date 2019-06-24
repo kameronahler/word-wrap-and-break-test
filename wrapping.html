@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Wrapping</title>
+	<meta name="Kameron Ahler">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<h2>This is going to be a white-space and word-wrap test</h2>
+	<div class="row">
+		<div class="container nowrap">
+			<code>white-space:nowrap;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae harum, explicabo repellendus nam reprehenderit. Sequi animi alias vel ipsam, ullam officiis eaque, adipisci deleniti minima ipsa magnam rerum, ut vero.</p>
+		</div>
+		
+		<div class="container wrap">
+			<code>white-space:wrap;</code>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae harum, explicabo repellendus nam reprehenderit. Sequi animi alias vel ipsam, ullam officiis eaque, adipisci deleniti minima ipsa magnam rerum, ut vero.</p>
+		</div>
+		
+		<div class="container longwordnowrap">
+			<code>word-wrap:none;</code>
+			<p>Loremloremloremloremloremloremloremloremloremloreloremfaewfewafewafewfewafeawfaewfaewfaewf</p>
+		</div>
+		
+		<div class="container longwordwrap">
+			<code>word-wrap:break-word;</code>
+			<p>Loremloremloremloremloremloremloremloremloremloreloremfaewfewafewafewfewafeawfaewfaewfaewf</p>
+		</div>
+		
+		<div class="container hyphennone">
+			<code>hyphens: none;<br><i>(no chrome support)</i></code>
+			<p>Loremloremloremloremloremloremloremloremloremloreloremfaewfewafewafewfewafeawfaewfaewfaewf</p>
+		</div>
+
+		<div class="container hyphenauto">
+			<code>hyphens: auto;<br><i>(no chrome support)</i></code>
+			<p>Loremloremloremloremloremloremloremloremloremloreloremfaewfewafewafewfewafeawfaewfaewfaewf</p>
+		</div>
+	</div>
+</body>
+
+</html>

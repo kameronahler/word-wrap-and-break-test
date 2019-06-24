@@ -1,0 +1,54 @@
+*,*::before,*::after{
+	box-sizing:border-box;
+	font-family:"Arimo", Arial, Sans-Serif;
+	font-weight:400;
+}
+
+body > h2:first-of-type{text-align:center}
+
+code{
+	font-family:"Inconsolata",Courier;
+	font-size:.75em;
+	background:#eee;
+	box-shadow:inset 0px 1px 2px -1px rgba(0,0,0,.1), inset 5px 0 #7818aa;
+	padding:1em 2em;
+	display:inline-block;
+	margin:20px 0 0;
+}
+
+html{
+	font-size:100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+}
+
+.row{width:100%}
+
+.container{width:50%;margin:0 0 0 4rem}
+
+.nowrap{
+	white-space:nowrap;
+}
+
+.longwordnowrap{
+	word-wrap:none;
+}
+.longwordwrap{
+	word-wrap:break-word;
+}
+
+.hyphennone p{
+
+	-webkit-hyphens:none;
+	-moz-hyphens:none;
+	-ms-hyphens:none;
+	hyphens:none;
+}
+
+.hyphenauto p{
+
+	-webkit-hyphens:auto;
+	-moz-hyphens:auto;
+	-ms-hyphens:auto;
+	hyphens:auto;
+}
